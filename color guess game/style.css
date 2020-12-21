@@ -1,0 +1,32 @@
+body {
+    margin:0px;
+    padding:0px;
+    background: rgb(1, 9, 15);
+}
+
+main {
+    width:960px;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 12px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width:280px;
+    height:280px;
+    border-radius: 20px;
+    background: steelblue;
+    margin-top: 20px;
+    transition: 0.3s;
+}
